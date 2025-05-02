@@ -30,5 +30,11 @@ int main()
 	cout << "\nEnter a character: ";
 	cin >> ch;
 
+	//Convert character to ASCII
+	int asciiValue = static_cast<int>(ch);
+	//previous and next characters
+	char prevChar = static_cast<char>(asciiValue - 1);
+	char nextChar = static_cast<char>(asciiValue + 1);
+
     return 0;
 }
