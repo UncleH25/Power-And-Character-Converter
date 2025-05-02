@@ -38,10 +38,10 @@ int main()
 
 	//Output for Character
 	cout << "\n--- Character Result ---" << endl;
-	cout << left << setw(15) << "Character: " << setw(10) << right << ch << endl;
-	cout << left << setw(15) << "ASCII Value: " << setw(10) << right << asciiValue << endl;
-	cout << left << setw(15) << "Previous Character: " << setw(10) << right << prevChar << endl;
-	cout << left << setw(15) << "Next Character: " << setw(10) << right << nextChar << endl;
+	cout << left << setw(20) << "Character: " << right << setw(5) << ch << endl;
+	cout << left << setw(20) << "ASCII Value: " << right << setw(5) << asciiValue << endl;
+	cout << left << setw(20) << "Previous Character: " << right << setw(5) << prevChar << endl;
+	cout << left << setw(20) << "Next Character: " << right << setw(5) << nextChar << endl;
 
     return 0;
 }
