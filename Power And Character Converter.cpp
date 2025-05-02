@@ -26,5 +26,9 @@ int main()
 	cout << left << setw(15) << "Exponent: " << setw(10) << right << exponent << endl;
 	cout << left << setw(15) << "Result: " << setw(10) << right << result << endl;
 
+	//Input for Character
+	cout << "\nEnter a character: ";
+	cin >> ch;
+
     return 0;
 }
