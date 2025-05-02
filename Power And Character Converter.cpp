@@ -36,5 +36,12 @@ int main()
 	char prevChar = static_cast<char>(asciiValue - 1);
 	char nextChar = static_cast<char>(asciiValue + 1);
 
+	//Output for Character
+	cout << "\n--- Character Result ---" << endl;
+	cout << left << setw(15) << "Character: " << setw(10) << right << ch << endl;
+	cout << left << setw(15) << "ASCII Value: " << setw(10) << right << asciiValue << endl;
+	cout << left << setw(15) << "Previous Character: " << setw(10) << right << prevChar << endl;
+	cout << left << setw(15) << "Next Character: " << setw(10) << right << nextChar << endl;
+
     return 0;
 }
