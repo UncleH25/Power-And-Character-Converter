@@ -17,7 +17,8 @@ int main()
 	cout << "Enter an exponent: ";
 	cin >> exponent;
 
-
+	//Calculation
+	double result = pow(base, exponent);
 
     return 0;
 }
