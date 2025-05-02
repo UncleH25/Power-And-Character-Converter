@@ -10,5 +10,14 @@ int main()
 	double base, exponent;
 	char ch;
 
+	//Input
+	cout << "Enter a base: ";
+	cin >> base;
+
+	cout << "Enter an exponent: ";
+	cin >> exponent;
+
+
+
     return 0;
 }
